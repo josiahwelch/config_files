@@ -9,7 +9,7 @@ set undofile
 syntax on
 set cursorline
 set showmatch
-set termguicolors
+# set termguicolors
 set clipboard=unnamedplus
 set wildmenu
 set spell
