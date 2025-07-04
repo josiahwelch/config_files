@@ -1,0 +1,15 @@
+set number
+set relativenumber
+set autoindent
+set smartindent
+set linebreak
+set incsearch
+set hlsearch
+set undofile
+syntax on
+set cursorline
+set showmatch
+set termguicolors
+set clipboard=unnamedplus
+set wildmenu
+set spell
