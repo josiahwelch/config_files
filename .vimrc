@@ -11,6 +11,7 @@ set cursorline
 set showmatch
 set clipboard=unnamedplus
 set wildmenu
+set wildmode=longest:full,full
 set spell
 set tabstop=4
 set shiftwidth=4
