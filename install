@@ -1,0 +1,4 @@
+#!/bin/sh
+ln -s .vimrc ~/.vimrc
+sudo ln -s .vimrc /root/.vimrc
+ln -s .xinitrc ~/.xinitrc
