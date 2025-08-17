@@ -10,7 +10,7 @@
     m:0x0 + c:121
     XF86AudioMute
 
-"~/git/config_files/t430-volume-controls/volume-up"
+"~/git/config_files/t430-volume-controls/mic-mute"
     m:0x0 + c:198
     XF86AudioMicMute
 
