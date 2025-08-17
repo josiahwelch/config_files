@@ -1,0 +1,6 @@
+#!/bin/sh
+if amixer -c 0 sget Capture | grep -q "\[on\]"; then
+	amixer -c 0 sset Capture nocap	
+else
+	amixer -c 0 sset Capture cap
+fi
