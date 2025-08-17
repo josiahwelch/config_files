@@ -1,2 +1,6 @@
 #!/bin/sh
-amixer sset Master 0%
+if amixer get Master | grep -q "\[on\]"; then
+	amixer sset Master mute
+else
+	amixer sset Master unmute
+fi
