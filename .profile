@@ -15,4 +15,4 @@ case "$(id -u)" in
 esac
 PS1='$_XTERM_TITLE\A $_PS1_COLOR\u@\h$_PS1_CLEAR:$_PS1_BLUE\w$_PS1_COLOR\$$_PS1_CLEAR '
 
-export TERM=xterm-256color
+export TERM=xterm-16color
