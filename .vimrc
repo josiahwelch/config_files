@@ -14,9 +14,9 @@ set wildmenu
 set wildmode=longest:full,full
 set spell
 hi SpellBad cterm=underline ctermfg=red ctermbg=none
-hi SpellCap cterm=bold ctermfg=blue
-hi SpellRare cterm=underline ctermfg=magenta
-hi SpellLocal cterm=underline ctermfg=cyan
+hi SpellCap cterm=bold ctermfg=blue ctermbg=none
+hi SpellRare cterm=underline ctermfg=magenta ctermbg=none
+hi SpellLocal cterm=underline ctermfg=cyan ctermbg=none
 set tabstop=4
 set shiftwidth=4
 set noexpandtab
