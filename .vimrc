@@ -21,3 +21,5 @@ set tabstop=4
 set shiftwidth=4
 set noexpandtab
 set mouse=a
+set t_ks=
+set t_ke=

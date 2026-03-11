@@ -19,9 +19,12 @@ xset b off
 
 sleep 8 
 
+apm -A
+
 # if you have a ThinkPad, the following lines enable TrackPoint
 # scrolling by dragging with the middle button.
-xinput set-prop 8 295 0.5
+xinput set-prop 8 278 0.375
+xinput set-prop 8 285 12.5
 xinput set-prop "/dev/wsmouse" "WS Pointer Wheel Emulation" 1 
 xinput set-prop "/dev/wsmouse" "WS Pointer Wheel Emulation Button" 2 
 xinput set-prop "/dev/wsmouse" "WS Pointer Wheel Emulation Axes" 6 7 4 5 
