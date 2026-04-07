@@ -31,7 +31,7 @@ xinput set-prop "/dev/wsmouse" "WS Pointer Wheel Emulation Axes" 6 7 4 5
 xinput set-button-map "/dev/wsmouse" 3 2 1
 
 #export ENV=$HOME/.kshrc
-xsetroot -solid steelblue
+# xsetroot -solid steelblue
 openbsd-wallpaper
 exec cwm
 

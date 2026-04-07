@@ -2,3 +2,4 @@
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/*
 git add * && git commit && git push
+git add . && git commit && git push
