@@ -1,0 +1,6 @@
+text/html; falkon %s
+image/png; shotwell %s
+image/jpeg; shotwell %s
+image/jpg; shotwell %s
+application/pdf; okular %s
+video/mp4; vlc %s
